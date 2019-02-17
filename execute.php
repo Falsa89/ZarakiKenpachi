@@ -127,7 +127,7 @@ elseif($text=="presentati")
 }
 elseif($text=="nel gruppo telegram della the hateful")
 {
-	$response = "Benvenuto, 0questa è la nostra scuola per giovani dotati! 
+	$response = "Benvenuto, questa è la nostra scuola per giovani dotati! 
 il primo passo per capire il proprio potere è sperimentarne L’entità, poi si da iniziò al processo di insegnamento su come controllarlo. Se decidi di restare, ti posso promettere che quando avrai finito qui, sarai in grado di reinserirti nel mondo e sfolgervi un ruolo stabile e produttivo";
 }
 elseif($text=="lista comandi")
