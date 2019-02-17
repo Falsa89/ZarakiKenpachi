@@ -21,17 +21,13 @@ if(strpos($text, "/start") === 0 || $text=="ciao")
 {
 	$response = "Ciao $firstname, Salve!";
 }
-elseif($text=="Buongiorno")
+elseif($text=="buongiorno")
 {
 	$response = "Buongiorno a te!";
 }
-elseif($text=="Buonanotte")
+elseif($text=="buonanotte")
 {
 	$response = "Buonanotte X";
-}
-else
-{
-	$response = "Comando non valido!";
 }
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
