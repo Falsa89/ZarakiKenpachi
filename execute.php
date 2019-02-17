@@ -35,8 +35,7 @@ elseif($text=="battaglia alleanza")
 }
 elseif($text=="apertura raid")
 {
-	$response = "Miei valorosi "χ"!
-Cerebro mi ha mostrato una minaccia spaventosa.Un potere senza eguali si sta per abbattere su di noi e ancora una volta avremo bisogno di tutte le nostre forze per debellarlo. È un nostro dovere, il raid è appena iniziato.";
+	$response = "Miei valorosi χ! Cerebro mi ha mostrato una minaccia spaventosa.Un potere senza eguali si sta per abbattere su di noi e ancora una volta avremo bisogno di tutte le nostre forze per debellarlo. È un nostro dovere, il raid è appena iniziato.";
 }
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
