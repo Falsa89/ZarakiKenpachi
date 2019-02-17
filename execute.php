@@ -29,6 +29,10 @@ elseif($text=="buonanotte")
 {
 	$response = "Buonanotte X";
 }
+elseif($text=="battaglia alleanza")
+{
+	$response = "Un milione! Un solo milione! Lo hai nel tuo sangue o hai dimenticato di essere un mutante? La forza di un'alleanza sta nell'impegno reciproco di ogni singolo membro a rendersi migliori ogni giorno che passa.";
+}
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
 echo json_encode($parameters);
