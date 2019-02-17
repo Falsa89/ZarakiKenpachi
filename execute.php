@@ -123,8 +123,8 @@ Trova la forza dentro di te e schiera team più competitivi!";
 }
 elseif($text=="presentati")
 {
-	$response = "piacere sono charles" or "Mutanti, nati con straordinarie capacità eppure restano bambini che brancolano nel buio alla ricerca di una guida. Un talento può essere una maledizione. Dona a qualcuno le ali e potrebbe volare troppo vicino al sole, dagli il potere della profezia e potrebbe vivere nella paura del futuro, donagli i talenti più grandi, poteri oltre ogni immaginazione e potrebbe pensare di essere destinato a dominare il mondo.";
-	
+	$response = "piacere sono charles" or $response = "Mutanti, nati con straordinarie capacità eppure restano bambini che brancolano nel buio alla ricerca di una guida. Un talento può essere una maledizione. Dona a qualcuno le ali e potrebbe volare troppo vicino al sole, dagli il potere della profezia e potrebbe vivere nella paura del futuro, donagli i talenti più grandi, poteri oltre ogni immaginazione e potrebbe pensare di essere destinato a dominare il mondo.";
+
 }
 elseif($text=="nel gruppo telegram della the hateful")
 {
