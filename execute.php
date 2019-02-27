@@ -21,7 +21,7 @@ if(strpos($text, "/start") === 0 || $text=="ciao")
 {
 	$response = "Ciao $username, Salve!";
 }
-elseif($message=="buongiorno")
+elseif($text=="buongiorno")
 {
 	$response = "Buongiorno a te!";
 }
@@ -31,22 +31,27 @@ elseif($text=="buonanotte")
 }
 elseif($text=="battaglia alleanza")
 {
-	$response = "Un milione! Un solo milione! Lo hai nel tuo sangue o hai dimenticato di essere un mutante? La forza di un'alleanza sta nell'impegno reciproco di ogni singolo membro a rendersi migliori ogni giorno che passa.";
+	$response = "Un milione a settimana, un solo milione! 
+Lo hai nel tuo sangue o hai dimenticato di essere un mutante? La forza di un' Alleanza sta nell'impegno reciproco di ogni singolo membro a rendersi migliori ogni giorno che passa.";
 }
 elseif($text=="apertura raid")
 {
-	$response = "Miei valorosi χ! Cerebro mi ha mostrato una minaccia spaventosa.Un potere senza eguali si sta per abbattere su di noi e ancora una volta avremo bisogno di tutte le nostre forze per debellarlo. È un nostro dovere, il raid è appena iniziato.";
+	$response = "Valorosi χ, accorrete! 
+Cerebro mi ha mostrato una minaccia spaventosa. 
+Un potere senza eguali si sta per abbattere su di noi e ancora una volta avremo bisogno di tutti per sconfiggerlo. 
+È un nostro dovere per la umanità: It' time to RAID!
+Punteggio minimo settimanale 48000 punti";
 }
 elseif($text=="minimo raid")
 {
-	$response = "È giusto ultimare il raid?
-La risposta è dentro di te!
+	$response = "È giusto ultimare il RAID?
+48.000 punti non sono poi tanti.
 Una catena è forte quando ogni singolo anello assolve al suo compito: sorreggere l'anello successivo.
 Le tue gravi mancanze mi rattristano e rendono cupo il mio animo.";
 }
 elseif($text=="inizio conquista")
 {
-	$response = "La conquista è iniziata! Tante battaglie affrontate negli anni, eppure nessuna di esse è stata come questa. Siamo destinati a distruggerci l’un l’altro o possiamo cambiare ciò che siamo ed unirci.... il futuro è davvero già scritto?";
+	$response = "La CONQUISTA è iniziata! Tante battaglie affrontate negli anni, eppure nessuna di esse è stata come questa. Siamo destinati a distruggerci l’un l’altro o possiamo cambiare ciò che siamo ed unirci.... il futuro è davvero già scritto?";
 }
 elseif($text=="aiuto conquista")
 {
@@ -56,15 +61,19 @@ Ogni aiuto è prezioso per respingere gli avversari!";
 }
 elseif($text=="partecipazione conquista")
 {
-	$response = "Dobbiamo delineare un piano per attaccare e sorprendere la fazione nemica! Siete pronti ragazzi miei?";
+	$response = "Dobbiamo delineare un piano per attaccare e sorprendere la fazione nemica! Siete pronti miei studenti?";
 }
 elseif($text=="donazioni")
 {
-	$response = "per la nostra scuola ogni aiuto è ben accetto! Ognuno deve fare la sua parte ed agire come fossimo un unico organismo!";
+	$response = "La nostra Scuola ha bisogno di un TUO aiuto: 
+DONA quello che puoi, ogni aiuto è ben accetto! 
+Ognuno é parte integrante del tutto, come le cellule di un unico organismo.";
 }
 elseif($text=="telegram")
 {
-	$response = "anche ai più giovani serve essere inseriti nel gruppo fra i membri più anziani per essere poi da loro guidati";
+	$response = "Anche ai più giovani serve essere inseriti nel gruppo fra i membri più anziani, per essere poi da loro guidati
+
+[Ricorda ai nuovi iscritti di entrare nel gruppo Telegram dell' Alleanza]";
 }
 elseif($text=="link x")
 {
@@ -76,7 +85,7 @@ elseif($text=="link accademia")
 }
 elseif($text=="reclutamento")
 {
-	$response = "dobbiamo evitare che gli altri mutanti ancora sparsi per il mondo prendano la strada sbagliata! Troviamoli e diamo loro un luogo dove imparare a dominare il loro potere! È dove possano crescere e avere una visione ottimistica del genere umano, priva di odio e rancore!";
+	$response = "Con l'aiuto di Cerebro ho trovato decide di mutanti sparsi per il Mondo, evitiamo che prendano la strada sbagliata! Troviamoli e diamo loro una casa, dove crescere, imparare a controllare i loro poteri e infine dominarli!";
 }
 elseif($text=="canale")
 {
@@ -92,24 +101,25 @@ elseif($text=="chat")
 }
 elseif($text=="promozione")
 {
-	$response = "salve studente, ho notato i tuoi sforzi ed il tuo impegno, hai un grande potere e potrai compiere delle grandi gesta; ma non qui, sei stato ammesso alla The Hatefull χ! raggiungi i tuoi nuovi compagni ed aiutaci a salvaguardare la specie mutante!";
+	$response = "Salve studente, ho notato i tuoi sforzi ed il tuo impegno. Sei ancora una pietra grezza, ma sicuamente in  The Hatefull χ riuscirai a brillare come una gemma rara! Raggiungici, Ti aspettiamo!";
 }
 elseif($text=="declassamento")
 {
-	$response = "Devo darti una brutta notizia,purtroppo eri stato giá avvertito altre volte.
-Questa é la terza volta che vieni richiamato,e siamo costretti a declassarti da allievo χ e mandarti in accademia.
-Lì troverai Hank McCoy che ti aiuterà a ritrovare la giusta via,non buttarti giù,ritrova la fede e torna con noi il prima possibile...
-Serve gente con i tuoi poteri,ma anche con lo giusto spirito di sacrificio,ricordalo sempre!";
+	$response = "Devo darti una brutta notizia:  purtroppo é la TERZA volta che vieni richiamato.
+Hai ancora bisogno di un po' di disciplina e chi meglio Hank McCoy può aiutarti a ritrovarla; con lui in accademia (Inglourious χ) sono sicuro migliorerai e come una Fenice rinascerai dalle ceneri.
+I tuoi poteri sono illimitati, ma se non vengono messi a disposizione di tutti non faranno crescere il gruppo anzi lo danneggiano.";
 }
 elseif($text=="regolamento")
 {
-	$response = "le regole sono la base per una coesistenza pacifica, questo è appunto il nostro regolamento, creato per poter dare una dimora stabile e sicura a tutti i mutanti:
-	-3 giorni inattività = espulsione
-	-battaglia alleanza: punteggio minimo 1 kk a settimana
-	-conquista: presenza richiesta
-	-raid: punteggio settimanale minimo 48.000
-	-presenza in chat richiesta
-	-3 richiami = accademia";
+	$response = "Ogni Scuola ha le sue regole, queste ci proteggono dal caos ed evitano che noi mutanti diventiamo vittime inconsapevoli della crudeltà umana. 
+Un piccolo sforzo per una convivenza migliore:
+ -> 3 giorni INATTIVITA' (senza avvisare) = ESPULSIONE
+ -> BATTAGLIA dell'ALLEANZA: punteggio minimo 1 kk a settimana
+ -> CONQUISTA: richiesta la presenza e la compilazione del sondaggio del giovedì. 
+ -> RAID:  punteggio settimanale minimo 48.000 (anche se venisse chiuso in anticipo)
+ -> presenza in chat richiesta
+La mancanza di uno di questi requisiti comporterà un RICHIAMO.
+ -> 3 RICHIAMI ===> ACCADEMIA";
 }
 elseif($text=="minimo battaglia alleanza")
 {
