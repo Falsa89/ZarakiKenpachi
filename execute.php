@@ -17,12 +17,10 @@ $text = isset($message['text']) ? $message['text'] : "";
 $text = trim($text);
 $text = strtolower($text);
 header("Content-Type: application/json");
-$parameters = array('chat_id' => $chatId, "text" => $text);
-$parameters["method"] = "sendMessage";
 $response = '';
 if(strpos($text, "/start") === 0 || $text=="ciao")
 {
-	$response = "Ciao $chatId, Salve!";
+	$response = "Ciao $username, Salve!";
 }
 elseif($text=="buongiorno")
 {
