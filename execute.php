@@ -16,6 +16,7 @@ $text = isset($message['text']) ? $message['text'] : "";
 $text = trim($text);
 $text = strtolower($text);
 header("Content-Type: application/json");
+$parameters = array('chat_id' => $chatId, "text" => $text);
 $response = '';
 if(strpos($text, "/start") === 0 || $text=="ciao")
 {
