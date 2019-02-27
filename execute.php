@@ -22,7 +22,7 @@ $parameters["method"] = "sendMessage";
 $response = '';
 if(strpos($text, "/start") === 0 || $text=="ciao")
 {
-	$response = "Ciao $senderId, Salve!";
+	$response = "Ciao $chatId, Salve!";
 }
 elseif($text=="buongiorno")
 {
