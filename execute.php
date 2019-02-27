@@ -23,11 +23,11 @@ if(strpos($text, "/start") === 0 || $text=="ciao")
 }
 elseif($text=="buongiorno")
 {
-	$response = "Buongiorno a te!";
+	$response = "Buongiorno a te $username!";
 }
 elseif($text=="buonanotte")
 {
-	$response = "Buonanotte X";
+	$response = "Buonanotte χ";
 }
 elseif($text=="battaglia alleanza")
 {
