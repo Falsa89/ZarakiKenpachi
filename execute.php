@@ -20,7 +20,7 @@ header("Content-Type: application/json");
 $response = '';
 if(strpos($text, "/start") === 0 || $text=="ciao")
 {
-	$response = "Ciao $username, Salve!";
+	($messageId($response ="Ciao $username, Salve!";
 }
 elseif($text=="buongiorno")
 {
