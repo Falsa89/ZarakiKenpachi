@@ -139,9 +139,9 @@ elseif($text=="presentati")
 }
 elseif($text=="sondaggio")
 {
-	$response = "miei cari χ
-stiamo preparando un piano d'attacco ed abbiamo bisogno di quanto più aiuto possibile!
-so gia che potrò contare su di voi, rispondete al sondaggio!";
+	$response = "Miei cari χ!
+Stiamo preparando un piano d'attacco ed abbiamo bisogno di quanto più aiuto possibile!
+So gia che potrò contare su di voi, rispondete al sondaggio!";
 
 }
 elseif($text=="nel gruppo telegram della the hateful")
