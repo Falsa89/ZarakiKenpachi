@@ -11,14 +11,14 @@ $chatId = isset($message['chat']['id']) ? $message['chat']['id'] : "";
 $senderId = isset($message['chat']['id']) ? $message['chat']['id'] : "";
 $firstname = isset($message['chat']['first_name']) ? $message['chat']['first_name'] : "";
 $lastname = isset($message['chat']['last_name']) ? $message['chat']['last_name'] : "";
-$username = isset($message['chat']['username']) ? $response['chat']['username'] : "";
+$username = isset($message['chat']['username']) ? $message['chat']['username'] : "";
 $date = isset($message['date']) ? $message['date'] : "";
 $text = isset($message['text']) ? $message['text'] : "";
 $text = trim($text);
 $text = strtolower($text);
 header("Content-Type: application/json");
 $response = '';
-if(strpos($text, "/start") === 0 || $text=="ciao")
+if($text, "/start") === 0 || $text=="ciao")
 {
 	$response = "Ciao $username, Salve!";
 }
