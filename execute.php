@@ -137,6 +137,13 @@ elseif($text=="presentati")
 	$response = "piacere sono charles";
 
 }
+elseif($text=="sondaggio")
+{
+	$response = "miei cari χ
+stiamo preparando un piano d'attacco ed abbiamo bisogno di quanto più aiuto possibile!
+so gia che potrò contare su di voi, rispondete al sondaggio!";
+
+}
 elseif($text=="nel gruppo telegram della the hateful")
 {
 	$response = "Benvenuto, questa è la nostra scuola per giovani dotati! 
@@ -167,6 +174,7 @@ elseif($text=="lista comandi")
 	minimo battaglia alleanza
 	team conquista
 	presentati
+	sondaggio
 	lista comandi";
 }
 $parameters = array('chat_id' => $chatId, "text" => $response);
