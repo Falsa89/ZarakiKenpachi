@@ -20,11 +20,11 @@ header("Content-Type: application/json");
 $response = '';
 if(strpos($text, "/start") === 0 || $text=="ciao")
 {
-	$response = "Ciao @username, Salve!";
+	$response = "Salve χ!";
 }
 elseif($text=="buongiorno")
 {
-	$response = "Buongiorno a te $username!";
+	$response = "Buongiorno a te!";
 }
 elseif($text=="buonanotte")
 {
