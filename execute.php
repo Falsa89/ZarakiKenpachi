@@ -18,7 +18,7 @@ $text = trim($text);
 $text = strtolower($text);
 header("Content-Type: application/json");
 $response = '';
-if($text, "/start") === 0 || $text=="ciao")
+if(strpos($text, "/start") === 0 || $text=="ciao")
 {
 	$response = "Ciao $username, Salve!";
 }
