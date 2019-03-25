@@ -151,6 +151,17 @@ elseif($text=="nel gruppo telegram della the hateful")
 	$response = "Benvenuto, questa è la nostra scuola per giovani dotati! 
 il primo passo per capire il proprio potere è sperimentarne L’entità, poi si da iniziò al processo di insegnamento su come controllarlo. Se decidi di restare, ti posso promettere che quando avrai finito qui, sarai in grado di reinserirti nel mondo e sfolgervi un ruolo stabile e produttivo";
 }
+elseif($text=="aula x")
+{
+	$response = "Il primo passo per capire il proprio potere è sperimentarne l’entità, poi si dà inizio al processo di insegnamento su come controllarlo! In questa aula voi giovani dotati verrete guidati per comprendere e controllare i vostri poteri!
+Un vero insegnante non può educare i singoli ma solo le specie e voi siete mutanti! 
+Un buon insegnante invece è colui che man mano si rende progressivamente superfluo. 
+Non ho nozioni da insegnarvi.
+Posso solo insegnarvi a pensare!
+
+-> https://t.me/joinchat/FLqE8EqwidnqkE49u7b94w <-";
+
+}
 elseif($text=="lista comandi")
 {
 	$response = "ciao
@@ -161,6 +172,7 @@ elseif($text=="lista comandi")
 	minimo raid
 	inizio conquista
 	aiuto conquista
+	aula x
 	partecipazione conquista
 	donazioni
 	telegram
