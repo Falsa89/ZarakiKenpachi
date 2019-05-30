@@ -32,7 +32,7 @@ elseif($text=="buonanotte")
 }
 elseif($text=="battaglia alleanza")
 {
-	$response = "Due milioni a settimana, due soli milioni! 
+	$response = "Cinque milioni a settimana, solamente cinque milioni! 
 Lo hai nel tuo sangue o hai dimenticato di essere un mutante? La forza di un' Alleanza sta nell'impegno reciproco di ogni singolo membro a rendersi migliori ogni giorno che passa.";
 }
 elseif($text=="apertura raid")
@@ -115,12 +115,12 @@ elseif($text=="regolamento")
 	$response = "Ogni Scuola ha le sue regole, queste ci proteggono dal caos ed evitano che noi mutanti diventiamo vittime inconsapevoli della crudeltà umana. 
 Un piccolo sforzo per una convivenza migliore:
  -> 3 giorni INATTIVITA' (senza avvisare) = ESPULSIONE
- -> BATTAGLIA dell'ALLEANZA: punteggio minimo 2 kk a settimana <70
- 	1.5 kk a settimana >70
+ -> BATTAGLIA dell'ALLEANZA: punteggio minimo 
+ 5 kk settimana 1
+ 4 kk settimana 2
  -> CONQUISTA: richiesta la presenza e la compilazione del sondaggio del giovedì. 
- -> RAID:  punteggio settimanale minimo 38.400 (anche se venisse chiuso in anticipo)
  -> presenza in chat richiesta
- -> la chiusura del Raid o della Battaglia alleanza con 0 punti equivale a 3 richiami
+ -> la chiusura della Battaglia alleanza con 0 punti equivale a 3 richiami
 La mancanza di uno di questi requisiti comporterà un RICHIAMO.
  -> 3 RICHIAMI ===> ACCADEMIA";
 }
