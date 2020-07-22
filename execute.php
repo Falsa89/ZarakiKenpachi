@@ -34,7 +34,7 @@ elseif (strpos($text, "spammando") !== false)
 {
 	$response = "Blah blah blah! Sei rumoroso! Vieni e combatti. Anzi, è meglio se venite tutti quanti insieme. Se mi circondate ed attaccate contemporaneamente, forse uno di voi mi ferirà davvero..";
 }
-elseif (strpos($text, "coglione") !== false)
+elseif (strpos($text, "pazzo") !== false)
 {
 	$response = "Sanità mentale? Spiacente, ma non ricordo di aver mai avuto un simile fastidio. ";
 }
