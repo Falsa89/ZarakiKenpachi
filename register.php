@@ -1,7 +1,7 @@
 <?php
 
 // PARAMETRI DA MODIFICARE
-$WEBHOOK_URL = 'https://ZarakiKenpachi.000webhostapp.com/webhook.php';
+$WEBHOOK_URL = 'https://zarakikenpachi.herokuapp.com/webhook.php';
 $BOT_TOKEN = '1250574456:AAE3Oe9yo3voRHmnW1C1X8tjkAOLUbeXaBU';
 
 // NON APPORTARE MODIFICHE NEL CODICE SEGUENTE
