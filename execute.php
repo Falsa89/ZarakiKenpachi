@@ -22,7 +22,7 @@ if(strpos($text, "/start") === 0 || $text=="ciao")
 {
 	$response = "..........!";
 }
-elseif (strpos($text, "nome") !== false)
+elseif (strpos($text, " nome") !== false)
 {
 	$response = "L'avevo dimenticato da molto tempo ... il dolore di non avere un nome. Quegli altri ragazzi avevano nomi che altri li chiamavano, ma io no.!";
 }
@@ -34,11 +34,11 @@ elseif (strpos($text, "spammando") !== false)
 {
 	$response = "Blah blah blah! Sei rumoroso! Vieni e combatti. Anzi, è meglio se venite tutti quanti insieme. Se mi circondate ed attaccate contemporaneamente, forse uno di voi mi ferirà davvero..";
 }
-elseif (strpos($text, "pazzo") !== false)
+elseif (strpos($text, " pazzo") !== false)
 {
 	$response = "Sanità mentale? Spiacente, ma non ricordo di aver mai avuto un simile fastidio. ";
 }
-if (strpos($text, 'perso') !== false) 
+if (strpos($text, 'perso ') !== false) 
 {
 	$response = "Non ammettere mai la sconfitta e chiedere una morte rapida! Muori prima, poi ammetti la sconfitta! Se sei sconfitto ma non sei morto, significa solo che sei stato fortunato! A quel punto, pensa solo alla sopravvivenza! Sopravvivi e pensa solo a uccidere colui che non è riuscito a ucciderti!";
 }
